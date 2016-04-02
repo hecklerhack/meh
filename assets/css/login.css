@@ -1,0 +1,89 @@
+ 
+
+html { 
+    height: 101%; 
+}
+body { 
+  background-image: url("../isspics/log.jpg"); 
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #313131;
+  font-size: 140%; 
+  line-height: 1; 
+  
+}
+
+::selection { background: #a4dcec; }
+::-moz-selection { background: #a4dcec; }
+::-webkit-selection { background: #a4dcec; }
+
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #ccc;
+  font-style: italic;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+  font-style: italic;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #ccc;
+  font-style: italic;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #ccc !important;
+  font-style: italic;  
+}
+
+br { display: block; line-height: 2.2em; } 
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+
+
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; } 
+
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+
+
+.center { display: block; text-align: center; }
+
+.register-form{
+	width: 400px;
+	margin: 0 auto;
+        margin-top: 150px;
+	text-align: center;
+	padding: 20px;
+	color: black;
+	background : #F8F8F8 ;
+	border-radius: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+        font-family: Avenir;
+}
+
+.register-form form input
+{
+    padding: 5px;
+}
+.register-form .btn
+{
+background: #726E6E;
+padding: 7px;
+border-radius: 5px;
+text-decoration: none;
+width: 50px;
+display: inline-block;
+color: #FFF;
+font-family: Avenir;
+font-size: 15px;
+text-transform: uppercase;
+}
+
+.register-form .register{
+border: 0;
+width: 60px;
+padding: 8px;
+}
