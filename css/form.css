@@ -1,0 +1,71 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+
+body {
+  background-color: #E8E8E8 ;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+.navbar navbar-static-top {
+   margin-bottom: -10px;
+   margin-top:-40px;
+   padding-bottom: -100px;
+}
+.navbar-default {
+    background: #E0E0E0 ;
+    font-family: Avenir;
+    font-size: 15px;
+
+    
+}
+.navbar-collapse {
+    color: orange;
+    font-family: Avenir;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-family: Avenir;
+}
+.navbar {
+    background-color: transparent;
+    background: transparent;
+
+ }
+  
+.navbar li { 
+    color: #000 
+        
+}
+
+.navbar-inverse {
+    top: 0;
+    left: 0;
+}
+
+.image-container {
+   margin-bottom: -10px;
+   margin-top:-40px;
+   padding-bottom: -100px;
+}
+.navbar-custom {
+    border-radius:2px;
+    font-size: 24px;
+}
+
+.wizard-container {
+    padding-top: -90px;
+   padding-bottom: -100px;
+}
+
+
+
+.error1 {
+    background-color: #996666;
+    color: white;
+    font-size:25px;
+    text-align: center;
+}
+.navbar-inverse {
+    height: 50px;
+}
